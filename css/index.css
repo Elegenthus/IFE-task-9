@@ -458,7 +458,7 @@ button{
 	font-size: 12px;
 }
 .RMB{
-	text-align: center;
+	margin-left: 10px;
 }
 .rmb{
 	margin-right: -8px;
@@ -593,7 +593,7 @@ p{
 .big_box{
 	border: 1px groove;
 	border-radius: 5px;
-	margin: -2px 30px 50px;
+	margin: -2px 30px 75px;
 }
 .box1{
 	position: absolute;
@@ -832,7 +832,7 @@ p{
 	background-color: #7ecaef;
 }
 .table3{
-	margin: 20px 40px;
+	margin: 20px 45px;
 	border:2px;
 	border-spacing: 0px;
 	padding: 5px 10px; 

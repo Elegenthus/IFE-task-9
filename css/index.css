@@ -138,7 +138,9 @@ hr{
 	margin-left: 0px;
 	padding-top: 4px;
 	padding-bottom:4px; 
+	padding-bottom:20px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .personalform{
 	margin-left: 45px;
@@ -359,7 +361,7 @@ hr{
 	background-color: #ffffff;
 	display: inline-block;
 	margin-top:20px;
-	padding: 20px 105px 20px 30px;
+	padding: 20px 115px 20px 30px;
 	margin-left: 60px;
 	margin-right: 70px;
 }
@@ -441,6 +443,7 @@ button{
 	margin-left: 6px;
 	width: 130px;
 	height: 65px;
+	padding-right: 10px;
 	background-color: #ffffff;
 }
 .time{
@@ -593,12 +596,12 @@ p{
 .big_box{
 	border: 1px groove;
 	border-radius: 5px;
-	margin: -2px 30px 75px;
+	margin: -1px 30px 75px;
 }
 .box1{
 	position: absolute;
 	margin-left: 30px;
-	margin-top:13px; 
+	margin-top:8px; 
 	border:1px groove;
 	background-color: #ffffff;
 	display: inline-block;
@@ -606,19 +609,19 @@ p{
 	font-family: 微软雅黑;
 	color: #535353;
 	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
+	padding: 11px 20px;
 	border-bottom-style: none;
 }
 .box3{
-	margin-left: 110px;
+	margin-left: 120px;
 	margin-top: 10px;
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 	display: inline-block;
 	font-size: 12px;
 	font-family: 微软雅黑;
 	background-color: #ededf0;
 	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
+	padding: 10px 20px;
 }
 .box2{
 	margin-left: 0px;
@@ -627,7 +630,7 @@ p{
 	font-family: 微软雅黑;
 	background-color: #ededf0;
 	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
+	padding: 10px 20px;
 }
 .table,td{
 	margin:30px;

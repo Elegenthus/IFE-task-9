@@ -601,7 +601,7 @@ p{
 .box1{
 	position: absolute;
 	margin-left: 30px;
-	margin-top:8px; 
+	margin-top:20px; 
 	border:1px groove;
 	background-color: #ffffff;
 	display: inline-block;
@@ -614,7 +614,7 @@ p{
 }
 .box3{
 	margin-left: 120px;
-	margin-top: 10px;
+	margin-top: 22px;
 	margin-bottom: 0px;
 	display: inline-block;
 	font-size: 12px;

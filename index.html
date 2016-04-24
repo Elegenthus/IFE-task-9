@@ -1,4 +1,3 @@
-IFE-task-9
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,37 +7,39 @@ IFE-task-9
 </head>
 <body>
 	<div class="head">
-	<img src="./images/top icon.png" class="topicon">
-	<div class="register">登录</div>
+	<div class="topicon"><img src="./images/top-icon.png" ></div>
+	<a href="#" class="register notxt">登录</a>
 	<div class="image-register"><img src="./images/register.png" ></div>
-	<input type="text"class="input"></input>
+	<div id="input"><input type="text"class="input"></input></div>
 	</div>
 	<div class="content">
 	<div class="side">
-		<div class="circle1">
+	    <div id="user">
+		<a href="#"class="circle1">
 			<div class="circle2"></div>
+		</a>
+		<a href="#" class="ABC123 notxt">ABC123</a>
 		</div>
-		<div class="ABC123">ABC123</div>
-		<div>
+		<div id="user">
 		<div class="num1">
-		<div class="num110">110</div>
-		<div class="collection">收藏</div>
+		<div><a href="#" class="num110 notxt">110</a></div>
+		<div><a href="#" class="collection notxt">收藏</a></div>
 		</div>
 		<hr></hr>
 		<div class="num2">
-		<div class="num313">313</div>
-		<div class="fans">粉丝</div>
+		<div><a href="#" class="num313 notxt">313</a></div>
+		<div><a href="#" class="collection notxt">粉丝</a></div>
 		</div>
 		</div>
 		<div class="centerbox">
 		<div class="personalform">
 		<div class="side_icon1"><img src="./images/side_icon1.png"></div>
-		<div class="personal_form">个人报表</div>
+		<a href="#" class="personal_form notxt" class="notxt">个人报表</a>
 		</div>
 		<div class="file_1">
 		<div class="side_icon2"><img src="./images/side_icon2.png"></div>
 		<div class="side_icon4"><img src="./images/side_icon4.png"></div>
-		<div class="file1">文件一</div>
+		<a href="#" class="file1 notxt">文件一</a>
 		</div>
 		<div class="file_2">
 		<div class="side_icon3"><img src="./images/side_icon3.png"></div>
@@ -59,37 +60,39 @@ IFE-task-9
 		<div class="file3">文件三</div>
 		</div>
 		</div>
-		<div class="personal_collection">
-		<div class="image_collection"><img src="./images/collection.png"></div>
-		<div class="personalcollection">个人收藏</div>
+		<div class="_share" id="user">
+		<div class="image_share"><img src="./images/collection.png"></div>
+		<a href="#" class="share notxt">个人收藏</a>
 		</div>
-		<div class="_share">
+		<div class="_share" id="user">
 			<div class="image_share"><img src="./images/share.png"></div>
-			<div class="share">我的分享</div>
+			<a href="#" class="share notxt">我的分享</a>
 		</div>
-		<div class="pictures">
-			<div class="image_pictures"><img src="./images/collection.png"></div>
-			<div class="picture">图库</div>
+		<div class="_share" id="user">
+			<div class="image_share"><img src="./images/collection.png"></div>
+			<a href="#" class="share notxt">图库&emsp;&emsp;</a>
 		</div>
-		<div class="grown">
-			<div class="image_grown"><img src="./images/collection.png"></div>
-			<div class="grow">成长记录</div>
+		<div class="_share" id="user">
+			<div class="image_share"><img src="./images/collection.png"></div>
+			<a href="" class="share notxt">成长记录</a>
 		</div>
-		<div class="_account">
-			<div class="image_account"><img src="./images/account.png"></div>
-			<div class="account">账户信息</div>
+		<div class="_share" id="user">
+			<div class="image_share"><img src="./images/account.png"></div>
+			<a href="" class="share notxt">账户信息</a>
 		</div>
 	</div>	
 	<div class="part1">
 			<div class="part1_1">C站 /个人报表/文件一/</div>
-		<div class="part1_2">文档一</div>
-		</div>	
+		<a href="" class="part1_2 notxt">文档一</a>
+	</div>	
 	<div class="main">	
-		<div class="part2">
+		<div class="sheet">
 		<div class="_search">
 			<label for="search" class="search">查询项</label>
 			<select id="search">
 				<option value="0">第一项</option>
+				<option value="1">第二项</option>
+				<option value="2">第三项</option>
 			</select>
 		</div>
 		<div class="_sale">
@@ -107,6 +110,7 @@ IFE-task-9
 		      </select>
 		      </div>
 		      </div>
+		      <div id="change">换</div>
 		     <div class="DTPS">
 		     	<div class="DT">
 		     		<label for="date" class="search">日期&emsp;</label>
@@ -131,47 +135,60 @@ IFE-task-9
 		     	</div>
 		     	<button type="button" class="button">搜索</button>
 		</div>
-		<div class="part3">
+		<div class="quotation">
 			<div class="part3_1"><img src="./images/part3_1.png" class="image_part3_1">
 			</div>
-			<div class="part3_2">
+			<div class="pric">
 				<div class="part3_2_1"></div>
-				<div class="time_1">10:00 am</div>
+				
 				<div class="RMB">
+				    <div class="time_1">10:00 am</div>
+				    </div>
+				    <div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1200</div>
 				</div>
 			</div>
-			<div class="part3_2">
-				<div class="time">11:00 am</div>
-				<div class="RMB">
+			<div class="pric">
+			<div class="RMB">
+			    <div class="time">11:00 am</div>
+			</div>	
+			<div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1300</div>
 			</div>
 			</div>
-			<div class="part3_2">
-				<div class="time">12:00 am</div>
+			<div class="pric">
+				<div class="RMB">
+			    <div class="time">12:00 am</div>
+			</div>	
 				<div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1200</div>
 			</div>
 			</div>
-			<div class="part3_2">
-				<div class="time">01:00 pm</div>
+			<div class="pric">
+				<div class="RMB">
+			    <div class="time">01:00 pm</div>
+			</div>	
 				<div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1400</div>
 			</div>
 			</div>
-			<div class="part3_2">
-				<div class="time">02:00 pm</div>
+			<div class="pric">
+				<div class="RMB">
+			    <div class="time">02:00 am</div>
+			</div>	
 				<div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1500</div>
 			</div>
 			</div>
-			<div class="part3_2">
-				<div class="time">03:00 pm</div>
+			<div class="pric">
+				<div class="RMB">
+			    <div class="time">03:00 pm</div>
+			</div>	
 				<div class="RMB">
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1800</div>
@@ -181,57 +198,57 @@ IFE-task-9
 				<img src="./images/part3_2.png" class="image_part3_1">
 			</div>
 
-			<div class="part3_3">
+			<div class="part3_3" id="user">
 				<div class="image_part3_3"><img src="./images/part3_3.png"></div>
 				<div class="history">历史查询</div>
 			</div>
 		</div>
-		<div class="part4">
+		<div class="statistic">
 			<p>2016年4月份统计</p>
-			<div class="part4_1">
-				<div class="part4_1_1"></div>
-				<div class="part4_1_2">
-					<div class="part4_1_2_1">133311</div>
-					<div class="part4_1_2_2">成交量</div>
+			<div class="sta_box">
+				<div class="bar green"></div>
+				<div class="num_deal">
+					<div class="num">133311</div>
+					<div class="deal">成交量</div>
 				</div>
-				<div class="part4_1_3"></div>
+				<div class="box green"></div>
 			</div>
-			<div class="part4_1">
-				<div class="part4_2_1"></div>
-				<div class="part4_1_2">
-					<div class="part4_1_2_1">133311</div>
-					<div class="part4_1_2_2">成交量</div>
+			<div class="sta_box">
+				<div class="bar blue"></div>
+				<div class="num_deal">
+					<div class="num">133311</div>
+					<div class="deal">成交量</div>
 				</div>
-				<div class="part4_2_3"></div>
+				<div class="box blue"></div>
 			</div>
-			<div class="part4_1">
-				<div class="part4_3_1"></div>
-				<div class="part4_1_2">
-					<div class="part4_1_2_1">133311</div>
-					<div class="part4_1_2_2">成交量</div>
+			<div class="sta_box">
+				<div class="bar re"></div>
+				<div class="num_deal">
+					<div class="num">133311</div>
+					<div class="deal">成交量</div>
 				</div>
-				<div class="part4_3_3"></div>
+				<div class="box re"></div>
 			</div>
-			<div class="part4_1">
-				<div class="part4_4_1"></div>
-				<div class="part4_1_2">
-					<div class="part4_1_2_1">133311</div>
-					<div class="part4_1_2_2">成交量</div>
+			<div class="sta_box yel">
+				<div class="bar yello"></div>
+				<div class="num_deal">
+					<div class="num">133311</div>
+					<div class="deal">成交量</div>
 				</div>
-				<div class="part4_4_3"></div>
+				<div class="box yello"></div>
 			</div>
 		</div>
-		<div class="part56">
-			<div class="part5">
+		<div class="pro_form">
+			<div class="proj">
 				<div class="part5_1">&emsp;&emsp;第一组项目</div>
 				<div class="box1">项目一</div>
-				<div class="box3">项目一</div>
-				<div class="box2">项目一</div>
-				<div class="box2">项目一</div>
-				<div class="box2">项目一</div>
+				<div class="box3 project">项目一</div>
+				<div class="box2 project">项目一</div>
+				<div class="box2 project">项目一</div>
+				<div class="box2 project">项目一</div>
 				<div class="big_box">
 					
-					<table class="table">
+					<table class="table4">
 						<tbody>
 							<tr>
 								<td class="td">购买材料一</td>
@@ -273,7 +290,7 @@ IFE-task-9
 					</table>
 				</div>
 			</div>
-			<div class="part6">
+			<div class="form">
 				<div class="part5_1">&emsp;&emsp;第一组项目</div>
 				<p class="title">标题</p>
 				<p class="form3">项目标价表三</p>
@@ -304,10 +321,10 @@ IFE-task-9
 				</div>
 			</div>
 			</div>
-		<div class="part78">
-			<div class="part7">
+		<div class="cal_rank">
+			<div class="calendar">
 				<div class="part5_1">&emsp;&emsp;日历</div>
-				<div class="part7_1">
+				<div class="date">
 					<select class="year">
 						<option value="0">
 							2016年
@@ -477,7 +494,7 @@ IFE-task-9
 					</tbody>
 				</table>				
 			</div>
-			<div class="part8">
+			<div class="ranklist">
 				<div class="part5_1">&emsp;&emsp;汽车行业排行榜</div>
 				<table class="table3">
 					<thead>

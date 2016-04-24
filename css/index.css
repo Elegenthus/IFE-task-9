@@ -1,66 +1,62 @@
-html,body{
+html,body,a,input,li,p,.head,.side,.main{
 	margin: 0px;
 	padding: 0px;
-	height: 130%;
+}
+.notxt{
+	text-decoration: none;
 }
 .head{
 	background-color: #2189bf;
 	height: 77px;
 	width: 100%;
 	overflow: hidden;
-	min-width: 1400px;
 }
 .topicon{
 	display: inline-block;
-	margin-left: 0px;
+	margin-left: 50px;
 	margin-top: 10px;
 }
+select{
+	background: transparent;
+}
 .input{
-	float: right;
-	display: inline-block;
 	background-image: url('../images/search-icon.png');
 	background-position: 18px center;
 	background-repeat: no-repeat;
 	height: 30px;
 	width: 315px;
 	border-radius: 15px 15px 15px 15px;
-	margin-top: 15px;
-	margin-right: 20px;
+}
+#input{
+	line-height: 77px;
+	float: right;
 }
 .image-register{
 	float: right;
-	display: inline-block;
-	margin-top: 23px;
-	margin-right: 4px;
+	line-height: 77px;
+	margin-left: 20px;
 }
 .register{
-	float: right;
-	display: inline-block;
 	color: white;
-	margin-top: 22px;
+	float: right;
+	line-height: 77px;
+	margin-left: 4px;
 	margin-right: 95px;
 }
 .content{
-	min-width: 1400px;
-	overflow: hidden;
 	background-color: #ededec; 
 	margin: 0px;
 	padding: 0px;
-	height: 100%;
 }
 .side{
 	float: left;
 	background-color: #2a2e3d; 
 	width: 260px;
-	height: 100%;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	height: 1250px;
 }
 .main{
 	padding: 0px;
-	height: 100%;
-	min-width: 1200px;
+	height: 1210px;
 	margin-left: 260px;
 }
 .circle1{
@@ -69,10 +65,12 @@ html,body{
 	height: 56px;
 	border-radius: 28px;
 	border: 3px #b9babe solid;
-	margin-left: 45px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	vertical-align: middle;
+}
+#user{
+	text-align: center;
 }
 .circle2{
 	width: 48px;
@@ -91,7 +89,6 @@ html,body{
 	font-size:16px;
 }
 .num110{
-	display: inline-block;
 	color: #6e8095;
 	font-family: 黑体;
 	font-size: 16px;
@@ -103,7 +100,6 @@ html,body{
 }
 .num1{
 	display: inline-block;
-	margin-left: 64px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	vertical-align: middle;
@@ -114,11 +110,6 @@ html,body{
 	vertical-align: middle;
 }
 .collection{
-	color: #6e8095;
-	font-size: 12px;
-	font-family: 宋体;
-}
-.fans{
 	color: #6e8095;
 	font-size: 12px;
 	font-family: 宋体;
@@ -141,7 +132,6 @@ hr{
 	margin-top: 20px;
 }
 .personalform{
-	margin-left: 45px;
 	margin-top: 10px;
 }
 .side_icon1{
@@ -149,20 +139,20 @@ hr{
 	height: 13px;
 	width: 13px;
 	border:none;
+	margin-left: 45px;
 }
 .personal_form{
 	display: inline-block;
-	margin-left: 14px;
 	font-family: 黑体;
 	font-size: 12px;
 	color: #e4e4e6;	
 }
 .file_1{
-	margin-left: 70px;
 	margin-top: 15px;
 }
 .side_icon2{
 	display: inline-block;
+	margin-left: 70px;
 	height: 13px;
 	width: 10px;
 }
@@ -248,6 +238,9 @@ hr{
 	height: 13px;
 	width: 13px;
 }
+.centerbox select{
+	background-color: transparent;
+}
 .file3{
 	margin-left: 6px;
 	display: inline-block;
@@ -255,25 +248,8 @@ hr{
 	font-size: 12px;
 	color: #6e8095;
 }
-.image_collection{
-	display: inline-block;
-	width: 12px;
-	height: 12px;
-}
-.personal_collection{
-	margin-top: 15px;
-	margin-left: 45px;
-}
-.personalcollection{
-	display: inline-block;
-	margin-left: 15px;
-	font-family: 黑体;
-	font-size: 12px;
-	color: #6e8096;	
-}
 ._share{
-	margin-left: 45px;
-	margin-top: 15px;
+	margin-top: 35px;
 }
 .image_share{
 	display: inline-block;
@@ -287,58 +263,10 @@ hr{
 	font-size: 12px;
 	color: #6e8096;
 }
-.pictures{
-	margin-left: 45px;
-	margin-top: 15px;
-}
-.image_pictures{
-	display: inline-block;
-	width: 12px;
-	height: 12px;
-}
-.picture{
-	display: inline-block;
-	margin-left: 15px;
-	font-family: 黑体;
-	font-size: 12px;
-	color: #6e8096;
-}
-.grown{
-	margin-left: 45px;
-	margin-top: 15px;
-}
-.image_grown{
-	display: inline-block;
-	width: 12px;
-	height: 12px;
-}
-.grow{
-	display: inline-block;
-	margin-left: 15px;
-	font-family: 黑体;
-	font-size: 12px;
-	color: #6e8096;
-}
-._account{
-	margin-left: 45px;
-	margin-top: 15px;
-}
-.image_account{
-	display: inline-block;
-	width: 12px;
-	height: 12px;
-}
-.account{
-	display: inline-block;
-	margin-left: 15px;
-	font-family: 黑体;
-	font-size: 12px;
-	color: #6e8096;
-}
 .part1{
-	width: 100%;
 	margin-top: 0px;
 	margin-left: 0px;
+	padding: 10px 20px;
 	background-color: #ffffff;
 }
 .part1_1{
@@ -355,13 +283,15 @@ hr{
 	font-size: 12.28px;
 	color: #99b7d3;
 }
-.part2{
+.sheet{
 	background-color: #ffffff;
 	display: inline-block;
 	margin-top:20px;
-	padding: 20px 105px 20px 30px;
+	padding: 15px 20px;
 	margin-left: 60px;
 	margin-right: 70px;
+	width: 850px;
+	height: 55px;
 }
 ._search{
 	display: inline-block;
@@ -377,11 +307,26 @@ hr{
 ._sale{
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 50px;
+	margin-left: 40px;
+}
+#change{
+	display: inline-block;
+	background-image: url("../images/change.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 40px;
+	width: 30px;
+	margin-left: 0px;
+	color: #ffffff;
+	line-height: 40px;
+	text-align: right;
+	font-size: 13px;
+	padding-right: 5px;
+	padding-left: 0px;
 }
 .DTPS{
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 30px;
 	vertical-align: middle;
 }
 .DT{
@@ -397,18 +342,28 @@ hr{
 	font-family: 黑体;
 	font-size: 12px;
 	color: #ffffff;
+	margin-left: 130px;
+}
+.sheet button{
+	background-color: #388bc2;
+	width: 50px;
+	height: 27px;
+	margin-left: 30px;
+	border:none;
+	vertical-align: middle;
 }
 button{
 	background-color: #388bc2;
 	width: 50px;
 	height: 27px;
-	margin-left: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border:none;
 	vertical-align: middle;
 }
-.part3{
+.quotation{
+	width: 890px;
+	height: 65px;
 	margin: 13px 60px;
 	padding: 0px;
 }
@@ -417,48 +372,50 @@ button{
 	width: 30px;
 	background-color: #ffffff;
 	height: 65px;
-	vertical-align: bottom;
+	margin-right: -3px;
+	vertical-align: middle;
 }
 .image_part3_1{
 	margin-top: 25px;
 	margin-left: 10px;
 }
-.part3_2{
+.quotation .pric{
 	display: inline-block;
-	margin-left: 8px;
-	width: 100px;
+	vertical-align: middle;
+	margin-right: -3px;
+	width: 110px;
 	height: 65px;
 	background-color: #ffffff;
 }
 .part3_2_1{
 	margin-top: 0px;
 	background-color: #4388c8;
-	width: 100px;
+	width: 110px;
 	height: 4px;
 }
 .part3_3{
 	display: inline-block;
-	margin-left: 6px;
+	margin-left: 0px;
 	width: 130px;
 	height: 65px;
+	line-height: 65px;
+	vertical-align: middle;
 	background-color: #ffffff;
 }
 .time{
 	display: inline-block;
 	margin-top: 12px;
-	margin-left: 25px;
 	font-family: 微软雅黑;
 	font-size: 12px;
 }
 .time_1{
 	display: inline-block;
 	margin-top: 8px;
-	margin-left: 30px;
 	font-family: 微软雅黑;
 	font-size: 12px;
 }
 .RMB{
-	margin-left: 10px;
+	text-align: center;
 }
 .rmb{
 	margin-right: -8px;
@@ -473,112 +430,89 @@ button{
 }
 .image_part3_3{
 	display: inline-block;
-	margin-top: 18px;
-	margin-left: 20px;
+}
+.image_part3_3 img{
+	display: inline-block;
+	vertical-align: middle;
 }
 .history{
 	display: inline-block;
+	vertical-align: middle;
 	margin-left: 12px;
 	font-family: 微软雅黑;
 	font-size: 12px;
 	color: #535353;
 }
-.part4{
+.statistic{
 	margin: 22px 60px;
 	padding: 0px;
+	height: 90px;
+	width: 890px;
 }
-.part4_1{
+.sta_box{
 	display:inline-block; 
 	width: 200px;
 	height: 70px;
 	background-color: #ffffff;
-	margin-right: 30px;
+	margin-right: 22px;
 }
-.part4_1_1{
+.yel{
+	margin-right: 0px;
+}
+.sta_box .bar{
 	vertical-align: middle;
 	display: inline-block;
 	width: 4px;
 	height: 70px;
+}
+.green{
 	background-color: #43b29d;
 }
-.part4_1_2{
+.num_deal{
 	display: inline-block;
 	vertical-align: middle;
 }
-.part4_1_2_1{
+.sta_box .num{
 	font-size: 12px;
 	font-family: 黑体;
 }
-.part4_1_2_2{
+.sta_box .deal{
 	font-size: 10px;
 	font-family: 黑体;
 	color:#aaaaaa;
 }
-.part4_1_3{
+.sta_box .box{
 	margin-left: 65px;
 	display: inline-block;
 	width: 60px;
 	height: 48px;
-	background-color: #43b29d;
 	vertical-align: middle;
 }
-.part4_2_1{
-	vertical-align: middle;
-	display: inline-block;
-	width: 4px;
-	height: 70px;
+.blue{
 	background-color: #388ace;
 }
-.part4_3_1{
-	vertical-align: middle;
-	display: inline-block;
-	width: 4px;
-	height: 70px;
+.re{
 	background-color: #cf4a36;
 }
-.part4_4_1{
-	vertical-align: middle;
-	display: inline-block;
-	width: 4px;
-	height: 70px;
+.yello{
 	background-color: #e2cd47;
-}
-.part4_2_3{
-	margin-left: 65px;
-	display: inline-block;
-	width: 60px;
-	height: 48px;
-	background-color: #388ace;
-	vertical-align: middle;
-}
-.part4_3_3{
-	margin-left: 65px;
-	display: inline-block;
-	width: 60px;
-	height: 48px;
-	background-color: #cf4a36;
-	vertical-align: middle;
-}
-.part4_4_3{
-	margin-left: 65px;
-	display: inline-block;
-	width: 60px;
-	height: 48px;
-	background-color: #e2cd47;
-	vertical-align: middle;
 }
 p{
 	font-size: 12px;
 	font-family: 微软雅黑;
 	margin-bottom: 6px;
 }
-.part56{
+.pro_form{
 	margin: 15px 60px;
+	width: 890px;
+	height: 360px;
 }
-.part5{
+.proj{
 	vertical-align: middle;
 	background-color: #ffffff;
 	display: inline-block;
+	width: 530px;
+	height: 360px;
 	border-radius: 8px;
 }
 .part5_1{
@@ -593,12 +527,29 @@ p{
 .big_box{
 	border: 1px groove;
 	border-radius: 5px;
-	margin: -2px 30px 75px;
+	margin: -2px 20px;
+	width: 490px;
+	height: 250px;
+}
+.project{
+	display: inline-block;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	background-color: #ededf0;
+	border-radius: 6px 6px 0px 0px;
+	line-height: 27px;
+	text-align: center;
+	margin-top: 14px;
+	width: 80px;
+	height: 26px;
 }
 .box1{
 	position: absolute;
-	margin-left: 30px;
-	margin-top:13px; 
+	margin-left: 20px;
+	width: 80px;
+	height: 27px;
+	margin-top:15px; 
+	line-height: 27px;
 	border:1px groove;
 	background-color: #ffffff;
 	display: inline-block;
@@ -606,33 +557,20 @@ p{
 	font-family: 微软雅黑;
 	color: #535353;
 	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
+	text-align: center;
 	border-bottom-style: none;
 }
 .box3{
 	margin-left: 110px;
 	margin-top: 10px;
 	margin-bottom: 2px;
-	display: inline-block;
-	font-size: 12px;
-	font-family: 微软雅黑;
-	background-color: #ededf0;
-	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
 }
 .box2{
 	margin-left: 0px;
-	display: inline-block;
-	font-size: 12px;
-	font-family: 微软雅黑;
-	background-color: #ededf0;
-	border-radius: 6px 6px 0px 0px;
-	padding: 12px 20px;
 }
-.table,td{
-	margin:30px;
-	border:2px;
-	padding: 5px 10px; 
+table,td{
+	margin: 30px;
+	border:2px; 
 	border: 1px solid;
 	border-style: groove;
 	border-collapse: collapse;
@@ -641,16 +579,26 @@ p{
 	color: #535353;
 	text-align: center;
 }
+.table4 td{
+	padding: 8px 15px; 
+}
+.table3 td{
+	padding: 5px 10px; 
+}
 .td{
 	background-color: #f4f5f6;
 }
-.part6{
+.form{
 	vertical-align: middle;
 	background-color: #ffffff;
 	display: inline-block;
+	height: 360px;
+	width: 350px;
+	margin-left: 2px;
 	border-radius: 8px;
 }
 .title{
+	margin-top: 15px;
 	margin-left: 50px;
 	font-size: 12px;
 	font-family: 微软雅黑;
@@ -661,20 +609,19 @@ p{
 	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353;
+	margin-bottom: -20px;
 }
 .price{
 	border-left-style: hidden;
 	border-bottom-style: hidden;
 	padding: 3px 60px 3px 15px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #c3c2c2;
 }
 .duty{
 	border-bottom-style: hidden;
 	border-right-style: hidden;
-	padding: 3px 140px 3px 13px;
-	font-size: 12px;
+	padding: 8px 125px 4px 15px;
 	font-family: 微软雅黑;
 	color: #c3c2c2;
 }
@@ -704,7 +651,7 @@ p{
     border-left-style: hidden;
 	border-right-style: hidden;
 	border-top-style: hidden;
-	padding: 3px 215px 120px 13px;
+	padding: 3px 140px 100px 13px;
 	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353; 	
@@ -719,50 +666,60 @@ p{
 .part6_3{
 	margin-top: -30px;
 }
-.part78{
+.cal_rank{
 	margin: 15px 60px;
+	width: 890px;
+	height: 355px;
 }
-.part7{
+.calendar{
 	vertical-align: middle;
 	background-color: #ffffff;
 	display: inline-block;
 	border-radius: 8px;
-	padding-bottom: 35px;
+	width: 350px;
+	height: 355px;
 }
 .year{
-	margin-left: 30px;
 	font-size: 12px;
 	font-family: 黑体;
 	color: #535353;
 }
+.calendar .date{
+	text-align: center;
+}
 .day{
+	margin-left: -4px;
 	font-size: 12px;
 	font-family: 黑体;
 	color: #535353;
 }
 .month{
-	width: 85px;
+	margin-left: -4px;
+	width: 80px;
+	text-align: center;
 	font-size: 12px;
 	font-family: 黑体;
 	color: #535353;
 }
 .button3{
+	margin-left: -4px;
 	background-color: #ffffff;
 	width: 75px;
 	height: 20px;
-	margin-left: 6px;
 	border:1px groove;
 	font-size: 12px;
 	font-family: 黑体;
+	display: inline-block;
 	color: #535353;
-	margin-right: 20px;
 }
-.part8{
+.ranklist{
 	vertical-align: middle;
 	background-color: #ffffff;
 	display: inline-block;
 	border-radius: 8px;
-	padding-bottom: 20px;
+	height: 355px;
+	width: 530px;
+	margin-left: 2px;
 }
 .pb{
 	display: inline-block;
@@ -844,10 +801,12 @@ p{
 	color: #535353;
 }
 .table2{
-	margin: 5px 20px 30px ;
+	margin: 5px auto ;
+	width: 300px;
+	height: 250px;
 	border:2px;
 	border-spacing: 0px;
-	padding: 0px 15px; 
+	padding: 0px; 
 	border: 1px solid;
 	border-style: groove;
 	border-collapse: collapse;

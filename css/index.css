@@ -132,12 +132,7 @@ hr{
 	margin-left: 0px;
 	padding-top: 4px;
 	padding-bottom:4px; 
-<<<<<<< HEAD
-=======
-	padding-bottom:20px;
->>>>>>> e617d62cb41c8f0b04b02b83e8c2cdf4ac3dbb76
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 .personalform{
 	margin-top: 10px;
@@ -295,11 +290,7 @@ hr{
 	background-color: #ffffff;
 	display: inline-block;
 	margin-top:20px;
-<<<<<<< HEAD
 	padding: 15px 20px;
-=======
-	padding: 20px 115px 20px 30px;
->>>>>>> e617d62cb41c8f0b04b02b83e8c2cdf4ac3dbb76
 	margin-left: 60px;
 	margin-right: 70px;
 	width: 850px;
@@ -410,12 +401,8 @@ button{
 	margin-left: 0px;
 	width: 130px;
 	height: 65px;
-<<<<<<< HEAD
 	line-height: 65px;
 	vertical-align: middle;
-=======
-	padding-right: 10px;
->>>>>>> e617d62cb41c8f0b04b02b83e8c2cdf4ac3dbb76
 	background-color: #ffffff;
 }
 .time{
@@ -543,7 +530,6 @@ p{
 .big_box{
 	border: 1px groove;
 	border-radius: 5px;
-<<<<<<< HEAD
 	margin: -2px 20px;
 	width: 490px;
 	height: 250px;
@@ -567,14 +553,6 @@ p{
 	height: 27px;
 	margin-top:15px; 
 	line-height: 27px;
-=======
-	margin: -1px 30px 75px;
-}
-.box1{
-	position: absolute;
-	margin-left: 30px;
-	margin-top:20px; 
->>>>>>> e617d62cb41c8f0b04b02b83e8c2cdf4ac3dbb76
 	border:1px groove;
 	background-color: #ffffff;
 	display: inline-block;
@@ -582,7 +560,6 @@ p{
 	font-family: 微软雅黑;
 	color: #535353;
 	border-radius: 6px 6px 0px 0px;
-<<<<<<< HEAD
 	text-align: center;
 	border-bottom-style: none;
 }
@@ -593,30 +570,6 @@ p{
 }
 .box2{
 	margin-left: 0px;
-=======
-	padding: 11px 20px;
-	border-bottom-style: none;
-}
-.box3{
-	margin-left: 120px;
-	margin-top: 22px;
-	margin-bottom: 0px;
-	display: inline-block;
-	font-size: 12px;
-	font-family: 微软雅黑;
-	background-color: #ededf0;
-	border-radius: 6px 6px 0px 0px;
-	padding: 10px 20px;
-}
-.box2{
-	margin-left: 0px;
-	display: inline-block;
-	font-size: 12px;
-	font-family: 微软雅黑;
-	background-color: #ededf0;
-	border-radius: 6px 6px 0px 0px;
-	padding: 10px 20px;
->>>>>>> e617d62cb41c8f0b04b02b83e8c2cdf4ac3dbb76
 }
 table,td{
 	margin: 30px;

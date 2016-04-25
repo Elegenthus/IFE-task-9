@@ -114,31 +114,34 @@
 		     <div class="DTPS">
 		     	<div class="DT">
 		     		<label for="date" class="search">日期&emsp;</label>
-		     		<input type="text" id="date"value="  2016-04-01"></input>
+		     		<input type="text" class="select3" id="date"value=" 2016-04-01"></input>
 		     		<label for="total" class="search">总耗时&emsp;</label>
 		     		<select id="total" class="select2">
 		     			<option value="0">8天</option>
+		     			<option value="1">10天</option>
+		     			<option value="2">12天</option>
 		     		</select> 
 		     		</div>
 		     		<div>
 		     		<label for="people" class="search">人数&emsp;</label>
-		     		<select id="peole" class="select1">
+		     		<select id="peole" class="select2">
 		     			<option value="0">10人</option>
+		     			<option value="1">12人</option>
+		     			<option value="2">14人</option>
 		     		</select>
 		     		<label for="deal" class="search">成交项&emsp;</label>
 		     		<select id="deal" class="select1">
-		     			<option value="0">
-		     				10项
-		     			</option>
+		     			<option value="0">10项</option>
+		     			<option value="1">12项</option>
+		     			<option value="2">14项</option>
 		     		</select>
 		     	</div>
 		     	</div>
 		     	<button type="button" class="button">搜索</button>
 		</div>
 		<div class="quotation">
-			<div class="part3_1"><img src="./images/part3_1.png" class="image_part3_1">
-			</div>
-			<div class="pric">
+			<div class="part3_1"><img src="./images/part3_1.png">
+			</div><div class="pric">
 				<div class="part3_2_1"></div>
 				
 				<div class="RMB">
@@ -148,8 +151,7 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1200</div>
 				</div>
-			</div>
-			<div class="pric">
+			</div><div class="pric">
 			<div class="RMB">
 			    <div class="time">11:00 am</div>
 			</div>	
@@ -157,8 +159,7 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1300</div>
 			</div>
-			</div>
-			<div class="pric">
+			</div><div class="pric">
 				<div class="RMB">
 			    <div class="time">12:00 am</div>
 			</div>	
@@ -166,8 +167,7 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1200</div>
 			</div>
-			</div>
-			<div class="pric">
+			</div><div class="pric">
 				<div class="RMB">
 			    <div class="time">01:00 pm</div>
 			</div>	
@@ -175,8 +175,7 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1400</div>
 			</div>
-			</div>
-			<div class="pric">
+			</div><div class="pric">
 				<div class="RMB">
 			    <div class="time">02:00 am</div>
 			</div>	
@@ -184,8 +183,7 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1500</div>
 			</div>
-			</div>
-			<div class="pric">
+			</div><div class="pric">
 				<div class="RMB">
 			    <div class="time">03:00 pm</div>
 			</div>	
@@ -193,12 +191,9 @@
 					<div class="rmb">¥</div>
 					<div class="rmb_num">1800</div>
 			</div>
-			</div>
-			<div class="part3_1">
-				<img src="./images/part3_2.png" class="image_part3_1">
-			</div>
-
-			<div class="part3_3" id="user">
+			</div><div class="part3_1">
+				<img src="./images/part3_2.png">
+			</div><div class="part3_3" id="user">
 				<div class="image_part3_3"><img src="./images/part3_3.png"></div>
 				<div class="history">历史查询</div>
 			</div>
@@ -240,7 +235,7 @@
 		</div>
 		<div class="pro_form">
 			<div class="proj">
-				<div class="part5_1">&emsp;&emsp;第一组项目</div>
+				<div class="_1st_pro">&emsp;&emsp;第一组项目</div>
 				<div class="box1">项目一</div>
 				<div class="box3 project">项目一</div>
 				<div class="box2 project">项目一</div>
@@ -291,7 +286,7 @@
 				</div>
 			</div>
 			<div class="form">
-				<div class="part5_1">&emsp;&emsp;第一组项目</div>
+				<div class="_1st_pro">&emsp;&emsp;第一组项目</div>
 				<p class="title">标题</p>
 				<p class="form3">项目标价表三</p>
 				<table class="table">
@@ -323,7 +318,7 @@
 			</div>
 		<div class="cal_rank">
 			<div class="calendar">
-				<div class="part5_1">&emsp;&emsp;日历</div>
+				<div class="_1st_pro">&emsp;&emsp;日历</div>
 				<div class="date">
 					<select class="year">
 						<option value="0">
@@ -342,17 +337,17 @@
 					</select>
 					<button class="button3"> 返回今天</button>
 				</div>
+				<div id="week" class="year">
+					<span>一</span>
+					<span>二</span>
+					<span>三</span>
+					<span>四</span>
+					<span>五</span>
+					<span>六</span>
+					<span>七</span>
+				</div>
 				<table class="table2">
 					<tbody>
-						<tr class="week">
-							<td class="week">一</td>
-							<td class="week">二</td>
-							<td class="week">三</td>
-							<td class="week">四</td>
-							<td class="week">五</td>
-							<td class="week">六</td>
-							<td class="week">七</td>
-						</tr>
 						<tr>
 							<td></td>
 							<td></td>
@@ -495,7 +490,7 @@
 				</table>				
 			</div>
 			<div class="ranklist">
-				<div class="part5_1">&emsp;&emsp;汽车行业排行榜</div>
+				<div class="_1st_pro">&emsp;&emsp;汽车行业排行榜</div>
 				<table class="table3">
 					<thead>
 						<tr>

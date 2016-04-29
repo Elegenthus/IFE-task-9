@@ -1,9 +1,43 @@
-html,body,a,input,li,p,.head,.side,.main{
+input{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+p{
+	margin: 0px;
+}
+a{
+	margin: 0px;
+	padding: 0px;
+	background:transparent;
+	text-decoration: none;
+}
+a:active,a:hover{
+	outline: 0px;
+}
+html{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	color:#000000;
+}
+body{
+	line-height: 1;
+	font-size: 12px;
+	font-family: 黑体;
 	margin: 0px;
 	padding: 0px;
 }
-.notxt{
-	text-decoration: none;
+img{
+	border:0px;
+	vertical-align: middle;
+	font-size: 0px;
+}
+select{
+	border: 1px groove;
+	border-color: #cbcbcb;
+	height: 22px;
+	vertical-align: middle;
 }
 .head{
 	background-color: #2189bf;
@@ -15,9 +49,10 @@ html,body,a,input,li,p,.head,.side,.main{
 	display: inline-block;
 	margin-left: 50px;
 	line-height: 77px;
+	font-size: 0px;
 }
-select{
-	background: transparent;
+.head img{
+	vertical-align: middle;
 }
 .input{
 	background-image: url('../images/search-icon.png');
@@ -25,7 +60,8 @@ select{
 	background-repeat: no-repeat;
 	height: 30px;
 	width: 315px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
+	border:none;
 }
 #input{
 	line-height: 77px;
@@ -35,6 +71,11 @@ select{
 	float: right;
 	line-height: 77px;
 	margin-left: 20px;
+	font-size: 0px;
+}
+.image-register img{
+	width: 20px;
+	height: 20px;
 }
 .register{
 	color: white;
@@ -79,23 +120,20 @@ select{
 	margin-top: 4px;
 	background-color: #b9babe; 
 }
-.ABC123{
+.name{
 	display: inline-block;
 	color: #f6f5f5;
 	margin-left: 18px;
 	vertical-align: middle;
-	font-family: 黑体;
 	font-size:16px;
 }
 .num110{
 	color: #6e8095;
-	font-family: 黑体;
 	font-size: 16px;
 }
 .num313{
 	color: #6e8095;
 	font-size: 16px;
-	font-family: 黑体;
 }
 .num1{
 	display: inline-block;
@@ -110,7 +148,6 @@ select{
 }
 .collection{
 	color: #6e8095;
-	font-size: 12px;
 	font-family: 宋体;
 }
 hr{
@@ -142,8 +179,6 @@ hr{
 }
 .personal_form{
 	display: inline-block;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #e4e4e6;	
 }
 .file_1{
@@ -164,8 +199,6 @@ hr{
 .file1{
 	display: inline-block;
 	margin-left: 6px;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #6e8095;	
 }
 .file_2{
@@ -186,8 +219,6 @@ hr{
 .file2{
 	display: inline-block;
 	margin-left: 6px;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #ededef;	
 }
 .doc1st{
@@ -202,8 +233,6 @@ hr{
 .doc1{
 	display: inline-block;
 	margin-left: 5px;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #ededef;
 }
 .doc_1st{
@@ -218,8 +247,6 @@ hr{
 .doc_1{
 	margin-left:5px;
 	display: inline-block;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #6e8095;
 }
 .file_3{
@@ -237,18 +264,14 @@ hr{
 	height: 13px;
 	width: 13px;
 }
-.centerbox select{
-	background-color: transparent;
-}
 .file3{
 	margin-left: 6px;
 	display: inline-block;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #6e8095;
 }
 ._share{
 	margin-top: 35px;
+	margin-left: 45px;
 }
 .image_share{
 	display: inline-block;
@@ -258,8 +281,6 @@ hr{
 .share{
 	display: inline-block;
 	margin-left: 15px;
-	font-family: 黑体;
-	font-size: 12px;
 	color: #6e8096;
 }
 .part1{
@@ -271,14 +292,12 @@ hr{
 .part1_1{
 	display: inline-block;
 	margin-left: 30px;
-	font-family: 黑体;
 	font-size: 12.28px;
 	color: #cfcfcf;
 }
 .part1_2{
 	display: inline-block;
 	margin-left: 4px;
-	font-family: 黑体;
 	font-size: 12.28px;
 	color: #99b7d3;
 }
@@ -298,8 +317,6 @@ hr{
 }
 .search{
 	margin-bottom: 6px;
-	font-family: 黑体;
-	font-size:12px;
 	color: #aaaaaa; 
 }
 .DTPS .search{
@@ -341,10 +358,10 @@ hr{
 }
 .select3{
 	width: 116px;
+	border:1px groove;
+	border-color: #cbcbcb;
 }
 .button{
-	font-family: 黑体;
-	font-size: 12px;
 	color: #ffffff;
 	margin-left: 130px;
 }
@@ -359,10 +376,10 @@ button{
 	margin-bottom: 10px;
 	border:none;
 	vertical-align: middle;
+	outline: none;
+	padding: 0px;
 }
 .quotation{
-	width: 890px;
-	height: 65px;
 	margin: 13px 60px;
 	padding: 0px;
 }
@@ -374,7 +391,6 @@ button{
 	vertical-align: middle;
 	line-height: 65px;
 	text-align: center;
-	margin-right: 4px;
 }
 .part3_1_1{
 	margin-left: 4px;
@@ -382,7 +398,7 @@ button{
 .quotation .pric{
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 4px;
+	margin-left: 5px;
 	width: 110px;
 	height: 65px;
 	background-color: #ffffff;
@@ -406,13 +422,11 @@ button{
 	display: inline-block;
 	margin-top: 12px;
 	font-family: 微软雅黑;
-	font-size: 12px;
 }
 .time_1{
 	display: inline-block;
 	margin-top: 8px;
 	font-family: 微软雅黑;
-	font-size: 12px;
 }
 .RMB{
 	text-align: center;
@@ -440,14 +454,11 @@ button{
 	vertical-align: middle;
 	margin-left: 12px;
 	font-family: 微软雅黑;
-	font-size: 12px;
 	color: #535353;
 }
 .statistic{
 	margin: 22px 60px;
 	padding: 0px;
-	height: 90px;
-	width: 890px;
 }
 .sta_box{
 	display:inline-block; 
@@ -471,18 +482,14 @@ button{
 .num_deal{
 	display: inline-block;
 	vertical-align: middle;
-}
-.sta_box .num{
-	font-size: 12px;
-	font-family: 黑体;
+	margin-left: 10px;
 }
 .sta_box .deal{
 	font-size: 10px;
-	font-family: 黑体;
 	color:#aaaaaa;
 }
 .sta_box .box{
-	margin-left: 65px;
+	margin-left: 60px;
 	display: inline-block;
 	width: 60px;
 	height: 48px;
@@ -498,14 +505,11 @@ button{
 	background-color: #e2cd47;
 }
 p{
-	font-size: 12px;
 	font-family: 微软雅黑;
 	margin-bottom: 6px;
 }
 .pro_form{
 	margin: 15px 60px;
-	width: 890px;
-	height: 360px;
 }
 .proj{
 	vertical-align: middle;
@@ -519,8 +523,6 @@ p{
 	border-radius:8px 8px 0px 0px; 
 	height: 40px;
 	background-color: #f4f5f7;
-	font-size: 12px;
-	font-family: 黑体;
 	color: #aaaaaa;
 	line-height: 40px;
 }
@@ -530,10 +532,10 @@ p{
 	margin: -2px 20px;
 	width: 490px;
 	height: 250px;
+	border-color: #cbcbcb;
 }
 .project{
 	display: inline-block;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	background-color: #ededf0;
 	border-radius: 6px 6px 0px 0px;
@@ -553,11 +555,11 @@ p{
 	border:1px groove;
 	background-color: #ffffff;
 	display: inline-block;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353;
 	border-radius: 6px 6px 0px 0px;
 	text-align: center;
+	border-color: #cbcbcb;
 	border-bottom-style: none;
 }
 .box3{
@@ -570,13 +572,12 @@ p{
 }
 table,td{
 	margin: 30px;
-	border: 1px solid;
-	border-style: groove;
+	border: 1px groove;
 	border-collapse: collapse;
-	font-size: 12px;
 	font-family: 宋体;
 	color: #535353;
 	text-align: center;
+	border-color: #cbcbcb;
 }
 .table4 td{
 	padding: 8px 15px; 
@@ -599,13 +600,11 @@ table,td{
 .title{
 	margin-top: 15px;
 	margin-left: 50px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #c3c2c2;
 }
 .form3{
 	margin-left: 50px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353;
 	margin-bottom: -20px;
@@ -627,14 +626,12 @@ table,td{
 .rmb158{
 	border-left-style: hidden;
 	padding: 3px 60px 3px 15px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353;
 }
 .littleA{
 	border-right-style: hidden;
 	padding: 3px 140px 3px 13px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353;
 }
@@ -642,7 +639,6 @@ table,td{
 	border-left-style: hidden;
 	border-right-style: hidden;
 	padding: 3px 215px 3px 13px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #c3c2c2; 
 }
@@ -651,14 +647,12 @@ table,td{
 	border-right-style: hidden;
 	border-top-style: hidden;
 	padding: 3px 140px 100px 13px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #535353; 	
 }
 .agree{
 	display: inline-block;
 	margin-left: 40px;
-	font-size: 12px;
 	font-family: 微软雅黑;
 	color: #c3c2c2;
 }
@@ -667,8 +661,6 @@ table,td{
 }
 .cal_rank{
 	margin: 15px 60px;
-	width: 890px;
-	height: 355px;
 }
 .calendar{
 	vertical-align: middle;
@@ -679,8 +671,6 @@ table,td{
 	height: 355px;
 }
 .year{
-	font-size: 12px;
-	font-family: 黑体;
 	color: #535353;
 }
 .calendar .date{
@@ -688,16 +678,12 @@ table,td{
 }
 .day{
 	margin-left: 2px;
-	font-size: 12px;
-	font-family: 黑体;
 	color: #535353;
 }
 .month{
 	margin-left: 2px;
 	width: 80px;
 	text-align: center;
-	font-size: 12px;
-	font-family: 黑体;
 	color: #535353;
 }
 .button3{
@@ -706,10 +692,10 @@ table,td{
 	width: 68px;
 	height: 22px;
 	border:1px groove;
-	font-size: 12px;
-	font-family: 黑体;
 	display: inline-block;
 	color: #535353;
+	vertical-align: middle;
+	border-color: #cbcbcb;
 }
 .ranklist{
 	vertical-align: middle;
@@ -746,44 +732,28 @@ table,td{
 	background-color: #f19e4f;
 }
 .pb4{
-	display: block;
 	width: 100px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb5{
-	display: block;
 	width: 88px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb6{
-	display: block;
 	width: 80px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb7{
-	display: block;
 	width: 75px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb8{
-	display: block;
 	width: 65px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb9{
-	display: block;
 	width: 60px;
-	height: 5px;
-	background-color: #7ecaef;
 }
 .pb10{
+	width: 55px;	
+}
+.pg_bar{
 	display:block;
-	width: 55px;
 	height: 5px;
 	background-color: #7ecaef;
 }

@@ -27,6 +27,7 @@ body{
 	font-family: 黑体;
 	margin: 0px;
 	padding: 0px;
+	background-color: #ededec;
 }
 img{
 	border:0px;
@@ -382,6 +383,7 @@ button{
 .quotation{
 	margin: 13px 60px;
 	padding: 0px;
+	width: 890px;
 }
 .part3_1{
 	display: inline-block;
@@ -459,6 +461,7 @@ button{
 .statistic{
 	margin: 22px 60px;
 	padding: 0px;
+	width: 890px;
 }
 .sta_box{
 	display:inline-block; 
